@@ -1,0 +1,58 @@
+[
+    {
+        "titulo": "Vestido Azul",
+        "preco": 290.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Vestido Azul com Detalhes Brancos",
+        "quantidade": 50
+    },
+    {
+        "titulo": "Camisa da Nike",
+        "preco": 110.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Camisa da Nike Branca e Preta",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Vestido Azul",
+        "preco": 290.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Vestido Azul com Detalhes Brancos",
+        "quantidade": 50
+    },
+    {
+        "titulo": "Camisa da Nike",
+        "preco": 110.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Camisa da Nike Branca e Preta",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Vestido Azul",
+        "preco": 290.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Vestido Azul com Detalhes Brancos",
+        "quantidade": 50
+    },
+    {
+        "titulo": "Camisa da Nike",
+        "preco": 110.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Camisa da Nike Branca e Preta",
+        "quantidade": 1
+    },
+    {
+        "titulo": "Vestido Azul",
+        "preco": 290.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Vestido Azul com Detalhes Brancos",
+        "quantidade": 50
+    },
+    {
+        "titulo": "Camisa da Nike",
+        "preco": 110.9,
+        "imagem": "Imagens/camisa-f-azul.jpg",
+        "alt": "Camisa da Nike Branca e Preta",
+        "quantidade": 1
+    }
+]

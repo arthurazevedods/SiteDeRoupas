@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a.active{  
+    color: #f39c12;  
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.lista-filtros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 1rem 2rem;
+    list-style:none;
+}
+.btn{
+    background-color: #326589;
+    border: none;
+    cursor: pointer;
+    height: 44px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn:hover {
+    color: #cecdcd;
+    border-radius: 10px;
+    border-bottom: 2px solid #fc6621;
+}
+.dropdown-filters{
+    display: none;
+}
+  
+/* Dropdown button */
+.btn-dropdown-filters {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.Produtos{
+    margin: 10px;
+    background-color: #326589;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.roupa{
+    width: 190px;
+    height: 314px;
+    border: 2px solid rgb(5, 6, 45);
+    border-radius: 2px;
+    padding: 8px;
+    margin: 10px;
+    background-color: rgba(151, 65, 252);
+}
+.roupa_titulo{
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    
+    display: flex;
+    justify-content: start;
+}
+
+.roupa img{
+    width: 100%;
+	height: auto;
+    border-radius: 5px;
+}
+.price-shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roupa__preco{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.btn-shop-item{
+    background-color: #cecdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .navbar{
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+        width: 25%;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        border: 1px solid #333;
+        border-bottom-left-radius:10% ;
+        background-color: #333;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo{
+        order: 1;
+    }
+    .burger{
+        display: flex;
+        order:3;
+    }
+    
+    .search-box{
+       order: 2;
+       margin-left: auto;
+    }
+    
+    .search-box-input {
+        display: none;
+    }
+    .lista-filtros{
+        display: none;
+    }
+    .dropdown-filters{
+        display: flex;
+    }
+    .btn-dropdown-filters{
+        display: flex;
+        justify-content: space-between;
+        background-color: #326589;
+        align-items: center;
+        height: 40px;
+        width: 20%;
+    }
+}
